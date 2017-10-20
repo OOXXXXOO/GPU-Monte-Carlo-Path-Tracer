@@ -18,39 +18,39 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\C++\Project\Graphics API Collection\Graphics API Collection\Basic Tracer.hpp">
+    <ClInclude Include="Basic Tracer.hpp">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\C++\Project\Graphics API Collection\Graphics API Collection\GT.hpp">
+    <ClInclude Include="GT.hpp">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\C++\Project\Graphics API Collection\Graphics API Collection\PGAPI.hpp">
+    <ClInclude Include="PGAPI.hpp">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\C++\Project\Graphics API Collection\Graphics API Collection\PM.hpp">
+    <ClInclude Include="PM.hpp">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\C++\Project\Graphics API Collection\Graphics API Collection\PT.hpp">
+    <ClInclude Include="PT.hpp">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\C++\Project\Graphics API Collection\Graphics API Collection\basic tracer.cpp">
+    <ClCompile Include="basic tracer.cpp">
       <Filter>源文件\HeadFrom</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\C++\Project\Graphics API Collection\Graphics API Collection\GT.cpp">
+    <ClCompile Include="GT.cpp">
       <Filter>源文件\HeadFrom</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\C++\Project\Graphics API Collection\Graphics API Collection\path tracer.cpp">
+    <ClCompile Include="path tracer.cpp">
       <Filter>源文件\HeadFrom</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\C++\Project\Graphics API Collection\Graphics API Collection\Personal Graphic API.cpp">
+    <ClCompile Include="Personal Graphic API.cpp">
       <Filter>源文件\HeadFrom</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\C++\Project\Graphics API Collection\Graphics API Collection\personal math lib.cpp">
+    <ClCompile Include="personal math lib.cpp">
       <Filter>源文件\HeadFrom</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\C++\Project\Graphics API Collection\Graphics API Collection\main.cpp">
+    <ClCompile Include="main.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

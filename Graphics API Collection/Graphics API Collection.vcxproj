@@ -18,6 +18,21 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Basic Tracer.hpp" />
+    <ClInclude Include="GT.hpp" />
+    <ClInclude Include="PGAPI.hpp" />
+    <ClInclude Include="PM.hpp" />
+    <ClInclude Include="PT.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="basic tracer.cpp" />
+    <ClCompile Include="GT.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="path tracer.cpp" />
+    <ClCompile Include="Personal Graphic API.cpp" />
+    <ClCompile Include="personal math lib.cpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{E2D69757-6671-468B-AACB-593F18F3447B}</ProjectGuid>
     <RootNamespace>GraphicsAPICollection</RootNamespace>
@@ -110,21 +125,6 @@
       <OptimizeReferences>true</OptimizeReferences>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\C++\Project\Graphics API Collection\Graphics API Collection\Basic Tracer.hpp" />
-    <ClInclude Include="..\..\C++\Project\Graphics API Collection\Graphics API Collection\GT.hpp" />
-    <ClInclude Include="..\..\C++\Project\Graphics API Collection\Graphics API Collection\PGAPI.hpp" />
-    <ClInclude Include="..\..\C++\Project\Graphics API Collection\Graphics API Collection\PM.hpp" />
-    <ClInclude Include="..\..\C++\Project\Graphics API Collection\Graphics API Collection\PT.hpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\C++\Project\Graphics API Collection\Graphics API Collection\basic tracer.cpp" />
-    <ClCompile Include="..\..\C++\Project\Graphics API Collection\Graphics API Collection\GT.cpp" />
-    <ClCompile Include="..\..\C++\Project\Graphics API Collection\Graphics API Collection\main.cpp" />
-    <ClCompile Include="..\..\C++\Project\Graphics API Collection\Graphics API Collection\path tracer.cpp" />
-    <ClCompile Include="..\..\C++\Project\Graphics API Collection\Graphics API Collection\Personal Graphic API.cpp" />
-    <ClCompile Include="..\..\C++\Project\Graphics API Collection\Graphics API Collection\personal math lib.cpp" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
